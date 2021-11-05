@@ -267,3 +267,28 @@
 }
 
 /* restaurant menu */
+.restaurant-menu-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* restaurant menu title */
+.restaurant-menu-section > :first-child{
+    color: var(--yellow);
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+/* restaurant menu description */
+.restaurant-menu-section > :nth-child(2){
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 56px;
+}
