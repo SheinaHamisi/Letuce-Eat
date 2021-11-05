@@ -120,3 +120,12 @@
     background-color: #E5E5E5;
     padding-top: 48px;
 }
+
+/* services heading */
+.services-section > :first-child{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    color: var(--yellow);
+}
