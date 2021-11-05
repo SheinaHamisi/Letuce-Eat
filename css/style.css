@@ -21,7 +21,7 @@
 
 /* header */
 .header{
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .5);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,4 +92,24 @@
     justify-content: space-between;
     padding-left: 70px;
     color: white;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+/* hero left */
+#hero-left{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* order now */
+#order-now{
+    background-color: var(--yellow);
+    color: white;
+    border: none;
+    margin-top: 72px;
+    font-size: 18px;
+    font-weight: bolder;
+    height: 55px;
+    width: 30%;
 }
