@@ -119,6 +119,7 @@
 .services-section{
     background-color: #E5E5E5;
     padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 /* services heading */
@@ -138,4 +139,55 @@
     font-style: italic;
     line-height: 26px;
     font-size: 18px;
+}
+
+/* services cards */
+#services-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 48px;
+}
+.services-card{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 340px;
+}
+
+/* card number */
+.card-number{
+    background-color: var(--yellow);
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    margin-top: 23px;
+    margin-bottom: 30px;
+}
+
+/* card title */
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* card description */
+.card-description{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 70px;
 }
