@@ -27,16 +27,61 @@
     align-items: center;
     padding-left: 70px;
     padding-right: 70px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 /* logo */
 #logo{
     display: flex;
-    font-size: 48px;
+    font-size: 24px;
     color: var(--yellow);
     font-weight: 900;
-    justify-content: space-between;
     align-items: center;
-    gap: 24px;
+    position: relative;
 }
 
+#logo div > img{
+    max-width: 50%;
+    position: relative;
+}
+
+#logo-text{
+    position: relative;
+    right: 30px;
+}
+
+/* nav menu */
+#nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 48px;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+}
+
+#menu :first-child{
+    color: var(--yellow);
+}
+
+/* header button */
+#btn-moringa{
+    border: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--yellow);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
