@@ -85,3 +85,11 @@
     padding-left: 24px;
     padding-right: 24px;
 }
+
+/* hero content section */
+.hero-content-section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    color: white;
+}
