@@ -270,10 +270,13 @@
 .restaurant-menu-section{
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #E5E5E5;
 }
 
 /* restaurant menu title */
@@ -291,4 +294,76 @@
     font-size: 18px;
     text-align: center;
     margin-bottom: 56px;
+}
+
+/* menu section cards section */
+.restaurant-menu-section-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* menu section card */
+.menu-section-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 586px;
+    background-color: white;
+    flex: 1 1 33%;
+}
+
+/* menu card left */
+.menu-section-card > :first-child{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: -14px;
+}
+
+/* menu card image */
+.menu-section-card img{
+    max-width: 100%;
+}
+
+/* menu card title */
+.menu-card-title{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 28px;
+}
+
+/* menu card description */
+.menu-card-description{
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 28px;
+}
+
+/* price */
+.menu-card-price{
+    color: var(--yellow);
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 27px;
+}
+
+/* order button */
+.menu-card-button{
+    background-color: #E5E5E5;
+    width: 130px;
+    height: 41px;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    border: none;
 }
