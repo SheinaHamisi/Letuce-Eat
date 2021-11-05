@@ -3,6 +3,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* color variables */
+:root {
+    --yellow: #F19201;
 }
 
 /* hero section */
@@ -22,3 +28,15 @@
     padding-left: 70px;
     padding-right: 70px;
 }
+
+/* logo */
+#logo{
+    display: flex;
+    font-size: 48px;
+    color: var(--yellow);
+    font-weight: 900;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
