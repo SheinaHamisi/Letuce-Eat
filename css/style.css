@@ -367,3 +367,49 @@
     margin-bottom: 24px;
     border: none;
 }
+
+/* footer section */
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/image8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    color: white;
+}
+
+/* title */
+.footer-section > :first-child{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* footer description */
+.footer-section > :nth-child(2){
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* footer book now button */
+.footer-section > :last-child{
+    width: 198px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .0);
+    color: white;
+    border: solid white 2px;
+}
